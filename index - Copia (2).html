@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lead Lab</title>
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheetQ" type="text/js" href="index.js"> 
+
+	<script>
+		function iniciaSlider(){
+    mac=3;
+    mac=1;
+	Fi=min;
+    carregaFoto("LEAD1.jpg");
+}
+
+
+function carregaFoto(foto){
+    document.getElementById("clone").style.backgroundImage="URL("+foto+")";
+}
+
+
+function prox(){
+	fi++;
+	carregaFoto("LEAD1"+f1+".jpg");
+
+}
+
+	</script>
+
+	<style>
+
+		#clone{
+			display: block;
+			width: 50%;
+			height: 450px;
+			background-color: #eeeeee;
+			transition: background-image 2s;
+			align-items: center;
+			justify-content: space-between;
+
+		}
+
+
+	</style>
+
+</head>
+<body onload="iniciaSlider()">
+	<header id="header">
+		<nav>
+			<img class="logo" src="logo.jpg">
+			<ul class="navigation">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="Paralax">
+			<h1>LEAD LAB</h1> 
+		</section>
+
+		<section class="botao" onclick="prox()";>
+			<div>Programação</div>
+			<div>Marketing/Design</div>
+			<div>Produção de Conteúdo</div>
+		</section>
+
+		<div id="clone"></div>
+
+		<section class="texto">
+			<h1> Programação</h1>
+			<p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
+		</section>
+
+		<footer></footer>
+	</main>
+
+	
+
+</body>
+</html>
